@@ -17,4 +17,3 @@ Task: What are the Linux commands to
 
 Reference: [Linux Commands for DevOps Used Day-to-Day](https://www.linkedin.com/posts/vaidik-gampawar_linux-commands-cheat-sheet-activity-7286969751812120576-pX1h)
 
-[← Previous Day](../day02/readme.md) | [Next Day →](../day04/README.md)
