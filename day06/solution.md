@@ -14,6 +14,7 @@
    - Task: Change the user permissions of the file and note the changes after running `ls -ltr`.
 
    **Answer**
+   
    ![image](https://github.com/Vaidik-Gampawar/90DaysOfDevOps/blob/main/day06/image/task%201-1.png)
    ![image](https://github.com/Vaidik-Gampawar/90DaysOfDevOps/blob/main/day06/image/task%201-2.png)
    ![image](https://github.com/Vaidik-Gampawar/90DaysOfDevOps/blob/main/day06/image/task%201-3.png)
@@ -69,5 +70,6 @@
 
    **Answer**
    ![image](https://github.com/Vaidik-Gampawar/90DaysOfDevOps/blob/main/day06/image/task%204-2.png)
+
 
 
