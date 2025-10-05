@@ -58,9 +58,10 @@
    - Task: Create a directory and set specific ACL permissions for different users and groups. Verify the permissions using `getfacl`.
 
    **Answer**
+   
    ![image](https://github.com/Vaidik-Gampawar/90DaysOfDevOps/blob/main/day06/image/task%203.png)
 
-5. **Additional Tasks:**
+6. **Additional Tasks:**
    - **Task:** Create a script that changes the permissions of multiple files in a directory based on user input.
 
    **Answer**
@@ -72,6 +73,7 @@
    **Answer**
    
    ![image](https://github.com/Vaidik-Gampawar/90DaysOfDevOps/blob/main/day06/image/task%204-2.png)
+
 
 
 
