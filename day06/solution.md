@@ -14,9 +14,12 @@
    - Task: Change the user permissions of the file and note the changes after running `ls -ltr`.
 
    **Answer**
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day06/image/task1.png)
+   ![image](https://github.com/Vaidik-Gampawar/90DaysOfDevOps/blob/main/day06/image/task%201-1.png)
+   ![image](https://github.com/Vaidik-Gampawar/90DaysOfDevOps/blob/main/day06/image/task%201-2.png)
+   ![image](https://github.com/Vaidik-Gampawar/90DaysOfDevOps/blob/main/day06/image/task%201-3.png)
+   
 
-2. **Writing an Article:**
+3. **Writing an Article:**
    - Write an article about file permissions based on your understanding from the notes.
 
    **Answer**
@@ -49,46 +52,22 @@
         - **SGID (Set Group ID)**: If SGID is set on any directory, all subdirectories and files created inside will inherit the group ownership of the main directory, regardless of who creates them.
         - **Sticky Bit**: Used on folders to avoid deletion of a folder and its contents by other users though they have write permissions. Only the owner and root user can delete other users' data in the folder where the sticky bit is set.
 
-3. **Access Control Lists (ACL):**
+4. **Access Control Lists (ACL):**
    - Read about ACL and try out the commands `getfacl` and `setfacl`.
    - Task: Create a directory and set specific ACL permissions for different users and groups. Verify the permissions using `getfacl`.
 
    **Answer**
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day06/image/task3.png)
+   ![image](https://github.com/Vaidik-Gampawar/90DaysOfDevOps/blob/main/day06/image/task%203.png)
 
-4. **Additional Tasks:**
+5. **Additional Tasks:**
    - **Task:** Create a script that changes the permissions of multiple files in a directory based on user input.
 
    **Answer**
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day06/image/task4.png)
+   ![image](https://github.com/Vaidik-Gampawar/90DaysOfDevOps/blob/main/day06/image/task%204-1.png)
 
    - **Task:** Write a script that sets ACL permissions for a user on a given file, based on user input.
 
    **Answer**
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day06/image/task4-1.png)
+   ![image](https://github.com/Vaidik-Gampawar/90DaysOfDevOps/blob/main/day06/image/task%204-2.png)
 
-5. **Understanding Sticky Bit, SUID, and SGID:**
-   - Read about sticky bit, SUID, and SGID.
-     - Sticky bit: Used on directories to prevent users from deleting files they do not own.
-     - SUID (Set User ID): Allows users to run an executable with the permissions of the executable's owner.
-     - SGID (Set Group ID): Allows users to run an executable with the permissions of the executable's group.
-   - Task: Create examples demonstrating the use of sticky bit, SUID, and SGID, and explain their significance.
 
-   **Answer**
-     - Sticky bit:
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day06/image/task5.png)
-     - SUID:
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day06/image/task5-1.png)
-     - SGID:
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day06/image/task5-2.png)
-
-6. **Backup and Restore Permissions:**
-   - Task: Create a script that backs up the current permissions of files in a directory to a file.
-
-   **Answer**
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day06/image/task6.png)
-
-   - Task: Create another script that restores the permissions from the backup file.
-
-   **Answer**
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day06/image/task6-1.png)
