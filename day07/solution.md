@@ -48,11 +48,11 @@
             sudo systemctl status jenkins
             
 
-   Output (Docker Status)
-   ![image](https://github.com/Vaidik-Gampawar/90DaysOfDevOps/blob/main/day07/image/docker-systemctl.png)
+   Output (Docker)
+   ![image](https://github.com/Vaidik-Gampawar/90DaysOfDevOps/blob/main/day07/image/docker-version.png)
 
-   Output (Jenkins Status)
-   ![image](https://github.com/Vaidik-Gampawar/90DaysOfDevOps/blob/main/day07/image/jenkins-systemctl.png)
+   Output (Jenkins)
+   ![image](https://github.com/Vaidik-Gampawar/90DaysOfDevOps/blob/main/day07/image/jenkins-version.png)
 
  
 ### Systemctl and Systemd
@@ -126,28 +126,29 @@ Systemctl is used to examine and control the state of the “systemd” system a
    - Write a script to automate the starting and stopping of Docker and Jenkins services.
 
    **Answer**
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day07/image/task4.png)
+   ![image]()
 
 5. **Enable and Disable Services:**
    - Use systemctl to enable Docker to start on boot and disable Jenkins from starting on boot.
 
    **Answer**
     - Enable Docker to start on boot:
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day07/image/task5.png)
+   ![image](https://github.com/Vaidik-Gampawar/90DaysOfDevOps/blob/main/day07/image/onboot-docker.png)
 
     - Disable Jenkins from starting on boot:
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day07/image/task5-1.png)
+   ![image](https://github.com/Vaidik-Gampawar/90DaysOfDevOps/blob/main/day07/image/onboot-jenkins.png)
 
 6. **Analyze Logs:**
    - Use journalctl to analyze the logs of the Docker and Jenkins services. Post your findings.
 
    **Answer**
     - Docker Logs:
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day07/image/task6.png)
+   ![image](https://github.com/Vaidik-Gampawar/90DaysOfDevOps/blob/main/day07/image/docker-log.png)
 
     - Jenkins Logs:
 
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day07/image/task6-1.png)
+   ![image](https://github.com/Vaidik-Gampawar/90DaysOfDevOps/blob/main/day07/image/jenkins-log.png)
+
 
 
 
