@@ -56,7 +56,18 @@
 
 2. **Write a Blog or Article:**
    - Write a small blog or article on how to install these tools using package managers on Ubuntu and CentOS.
+     📖 Summary
 
+To set up your DevOps environment, use:
+
+Ubuntu → apt
+
+CentOS → yum
+
+Fedora → dnf
+
+These commands make it easy to install and manage essential DevOps tools across Linux systems.
+Perfect for building a consistent environment to learn and practice DevOps concepts. 🚀
    **Answer**
    1. Introduction:
       - Briefly introduce Docker and Jenkins.
@@ -163,6 +174,7 @@ Systemctl is used to examine and control the state of the “systemd” system a
     - Jenkins Logs:
 
    ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day07/image/task6-1.png)
+
 
 
 
