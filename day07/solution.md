@@ -54,33 +54,7 @@
    Output (Jenkins Status)
    ![image](https://github.com/Vaidik-Gampawar/90DaysOfDevOps/blob/main/day07/image/jenkins-systemctl.png)
 
-2. **Write a Blog or Article:**
-   - Write a small blog or article on how to install these tools using package managers on Ubuntu and CentOS.
-     📖 Summary
-
-To set up your DevOps environment, use:
-
-Ubuntu → apt
-
-CentOS → yum
-
-Fedora → dnf
-
-These commands make it easy to install and manage essential DevOps tools across Linux systems.
-Perfect for building a consistent environment to learn and practice DevOps concepts. 🚀
-   **Answer**
-   1. Introduction:
-      - Briefly introduce Docker and Jenkins.
-      - Mention the operating systems (Ubuntu and CentOS) covered.
-   2. Installing Docker on Ubuntu:
-      - List the steps as detailed above.
-   3. Installing Docker on CentOS:
-      - Provide similar steps adjusted for CentOS.
-   4. Installing Jenkins on Ubuntu:
-      - List the steps as detailed above.
-   5. Installing Jenkins on CentOS:
-      - Provide similar steps adjusted for CentOS.
-
+ 
 ### Systemctl and Systemd
 
 Systemctl is used to examine and control the state of the “systemd” system and service manager. Systemd is a system and service manager for Unix-like operating systems (most distributions, but not all).
@@ -174,6 +148,7 @@ Systemctl is used to examine and control the state of the “systemd” system a
     - Jenkins Logs:
 
    ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day07/image/task6-1.png)
+
 
 
 
