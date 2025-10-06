@@ -28,28 +28,28 @@
             sudo systemctl status docker
 
      - **Installing Jenkins**
-       - Add the Jenkins repository key to the system:
-         ```bash
-            curl -fsSL https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
+
        - Add the Jenkins repository:
          ```bash
-            sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
-       - Update the package list:
+            sudo wget -O /etc/yum.repos.d/jenkins.repo \ https://pkg.jenkins.io/redhat-stable/jenkins.repo
+            sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+            sudo dnf upgrade
+       - Add required dependencies for the jenkins package
          ```bash
-            sudo apt update
+            sudo dnf install fontconfig java-21-openjdk
        - Install Jenkins:
          ```bash
-            sudo apt install jenkins
+            sudo dnf install jenkins
+            sudo systemctl daemon-reload
        - Start Jenkins:
          ```bash
+            sudo systemctl enable jenkins
             sudo systemctl start jenkins
-       - Note:
-         - First, check whether JAVA is installed or not.
-           ```bash
-              java -version
-         - If you have not installed
-           ```bash
-              sudo apt install default-jre
+         
+       - You can check the status of the Jenkins service using the command
+         ```bash
+            sudo systemctl status jenkins
+            
 
    Output
    ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day07/image/task1.png)
@@ -164,4 +164,5 @@ Systemctl is used to examine and control the state of the “systemd” system a
    ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day07/image/task6.png)
 
     - Jenkins Logs:
+
    ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day07/image/task6-1.png)
