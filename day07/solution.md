@@ -65,15 +65,16 @@ Systemctl is used to examine and control the state of the “systemd” system a
    - Check the status of the Docker service on your system (ensure you have completed the installation tasks above).
 
    **Answer**
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day07/image/task5.png)
+   ![image](https://github.com/Vaidik-Gampawar/90DaysOfDevOps/blob/main/day07/image/status-docker.png)
 
 2. **Manage Jenkins Service:**
    - Stop the Jenkins service and post before and after screenshots.
 
    **Answer**
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day07/image/taskj2.png)
+   ![image](https://github.com/Vaidik-Gampawar/90DaysOfDevOps/blob/main/day07/image/start-status-jenkins.png)
+   ![image](https://github.com/Vaidik-Gampawar/90DaysOfDevOps/blob/main/day07/image/stop-status-jenkins.png)
 
-3. **Read About Systemctl vs. Service:**
+4. **Read About Systemctl vs. Service:**
    - Read about the differences between the `systemctl` and `service` commands.
    - Example: `systemctl status docker` vs. `service docker status`.
 
@@ -148,6 +149,7 @@ Systemctl is used to examine and control the state of the “systemd” system a
     - Jenkins Logs:
 
    ![image](https://github.com/Vaidik-Gampawar/90DaysOfDevOps/blob/main/day07/image/jenkins-log.png)
+
 
 
 
