@@ -7,22 +7,19 @@
 
    **Answer**
      - **First-Installing Docker**
-       - Update the package list and install required packages:
+       - Set up the repository:
          ```bash
-            sudo apt update
-            sudo apt install apt-transport-https ca-certificates curl software-properties-common 
-       - Add Docker’s official GPG key:
+            sudo dnf -y install dnf-plugins-core
+            sudo dnf-3 config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
+       - Install the Docker packages:
          ```bash
-            curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -          
-       - Add the Docker APT repository:
+            sudo dnf install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin          
+       - Start Docker Engine.
          ```bash
-            sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
-       - Update the package list again:
+            sudo systemctl enable --now docker
+       - Verify that the installation is successful by running the hello-world image:
          ```bash
-            sudo apt update
-       - Install Docker:
-         ```bash
-            sudo apt install docker-ce
+            sudo docker run hello-world
        - Check Docker installation:
          ```bash
             sudo systemctl status docker
@@ -166,6 +163,7 @@ Systemctl is used to examine and control the state of the “systemd” system a
     - Jenkins Logs:
 
    ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day07/image/task6-1.png)
+
 
 
 
