@@ -127,6 +127,7 @@ Systemctl is used to examine and control the state of the “systemd” system a
    - Write a script to automate the starting and stopping of Docker and Jenkins services.
 
    **Answer**
+   
    ![image](https://github.com/Vaidik-Gampawar/90DaysOfDevOps/blob/main/day07/image/automate-script.png)
    ![image](https://github.com/Vaidik-Gampawar/90DaysOfDevOps/blob/main/day07/image/docker-automate.png)
    ![image](https://github.com/Vaidik-Gampawar/90DaysOfDevOps/blob/main/day07/image/jenkins-automate.png)
@@ -151,6 +152,7 @@ Systemctl is used to examine and control the state of the “systemd” system a
     - Jenkins Logs:
 
    ![image](https://github.com/Vaidik-Gampawar/90DaysOfDevOps/blob/main/day07/image/jenkins-log.png)
+
 
 
 
