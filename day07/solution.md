@@ -52,7 +52,7 @@
             
 
    Output
-   ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day07/image/task1.png)
+   ![image](https://github.com/Vaidik-Gampawar/90DaysOfDevOps/blob/main/day07/image/docker-systemctl.png)
 
    Output (Jenkins-UI)
    ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day07/image/task1-2.png)
@@ -166,3 +166,4 @@ Systemctl is used to examine and control the state of the “systemd” system a
     - Jenkins Logs:
 
    ![image](https://github.com/Bhavin213/90DaysOfDevOps/blob/master/2024/day07/image/task6-1.png)
+
